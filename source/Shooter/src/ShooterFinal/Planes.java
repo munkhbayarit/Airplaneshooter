@@ -50,6 +50,7 @@ public class Planes extends JPanel  implements ActionListener,MouseListener{
 		zero();
 		convert();
 	}
+	//refreshing table it means set table all 0 and all blanks
 	public void zero(){
 		int l,l1;
 		for(l=0;l<10;l++)
@@ -127,7 +128,7 @@ public class Planes extends JPanel  implements ActionListener,MouseListener{
 	 }
 	 
 	 
-	 
+	 //Random function to choose plane
 	 public void random(){
 		 data=new int[planeCount];
          int j=0;
@@ -145,7 +146,7 @@ public class Planes extends JPanel  implements ActionListener,MouseListener{
  	                         j=0;
  		 }
 	 }
-	 
+	 //taking all planes information
 	 public void getPixelPlane(){
 		 int i,je;
 		 random();
@@ -161,7 +162,7 @@ public class Planes extends JPanel  implements ActionListener,MouseListener{
 					planesShooseCom[i][je]=planes[data[i]][je];
 		 }
 	 }
-      	
+     //adding the planes to table also into board	
 	 public void convert(){
 		 int i,je;
          for (i = 0; i < planesShooseGuest.length; i++) {
@@ -260,7 +261,9 @@ public class Planes extends JPanel  implements ActionListener,MouseListener{
 		            	gu=1;
 		            	com=0;
 		            }
-		            	
+		            //H means Blank (nothing)	
+		            //SH means hit
+		            //C means destroyed
 		            if(gunx<330&&gunx>30&&guny<360&&guny>60&&gu==1){
 					if(table1[yy][xx]==0){
 						g1.drawString("H", xx*30+30+15, yy*30+90+15);

@@ -1,3 +1,7 @@
+/*
+ * This is the sound of when the each player's shooting time will end
+ * it will beep when player has to shoot for under 3 seconds
+ */
 package ShooterFinal;
 import java.util.Timer;
 import java.util.TimerTask;
@@ -10,6 +14,7 @@ public class AnnoyingBeep {
     Toolkit toolkit;
     Timer timer;
     Graphics l;
+    
     public AnnoyingBeep(Graphics k)
     {
     	l=k;
@@ -28,7 +33,7 @@ public class AnnoyingBeep {
                        0,        //initial delay
                        1*1000);  //subsequent rate
     }
-
+//1st player (PLayer)
     class RemindTask extends TimerTask {
         int numWarningBeeps = 10;
         public void run() {
@@ -49,6 +54,7 @@ public class AnnoyingBeep {
             }
         }
     }
+    //2nd player (Computer)
     class RemindTasks extends TimerTask {
         int numWarningBeeps = 10;
         public void run() {

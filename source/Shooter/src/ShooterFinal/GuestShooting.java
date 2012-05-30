@@ -1,7 +1,4 @@
 package ShooterFinal;
-
-
-
 import java.awt.Color;
 import java.awt.Container;
 import java.awt.Graphics;
@@ -18,7 +15,7 @@ import javax.swing.JPanel;
 import javax.swing.JRadioButton;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
-
+//Player shooting the plane
 public class GuestShooting extends JPanel implements ActionListener,MouseListener{
 	static private Planes p;
 	static private JButton cancel,start,refresh;

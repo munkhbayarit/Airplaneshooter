@@ -1,7 +1,5 @@
 package ShooterFinal;
 
-
-
 import java.awt.Color;
 import java.awt.Container;
 import java.awt.event.ActionEvent;
@@ -22,7 +20,7 @@ import javax.swing.JPanel;
 import javax.swing.JRadioButton;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
-
+//This class show's second window of Game configure
 public class PlayConfigure extends JFrame implements ActionListener {
 	String name;
 	private Object item10[] = { "2", "3", "4", "5" };

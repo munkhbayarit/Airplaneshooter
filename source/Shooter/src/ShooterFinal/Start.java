@@ -1,6 +1,6 @@
 package ShooterFinal;
 
-
+// This will show the main window to user
 
 import java.awt.Color;
 import java.awt.Dimension;

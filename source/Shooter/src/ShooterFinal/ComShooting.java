@@ -1,4 +1,5 @@
 package ShooterFinal;
+//This will how computer shoot the player's plane
 
 import java.awt.Frame;
 import java.awt.Graphics;
@@ -31,9 +32,7 @@ public class ComShooting extends JPanel {
 		    	 for(int j=0;j<16;j++)
 		    	 {
 		    		 System.out.println(position[i][j]);
-		    	 }
-		    
-		     
+		    	 }	     
   }
    /*
 @Override

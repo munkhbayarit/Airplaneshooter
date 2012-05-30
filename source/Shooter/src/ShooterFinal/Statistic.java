@@ -1,7 +1,5 @@
 package ShooterFinal;
 
-
-
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Font;
@@ -18,7 +16,7 @@ import javax.swing.JPanel;
 import javax.swing.JRadioButton;
 import javax.swing.JTable;
 import javax.swing.JTextField;
-
+//Show's the statistic and high score it takes data from database
 public class Statistic extends JFrame {
 
 	JLabel t1, t2, t3, txt;
