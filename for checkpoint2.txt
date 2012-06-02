@@ -1,0 +1,16 @@
+Team: Shooter
+
+We add new Planes.java it has got all planes information
+and we will take randomly from this class
+
+Maybe it has disadvantage to player will easily guess the planes
+but we will add more locations more tables where planes are located
+then it won't be that easy
+
+We will imporve the computer skills (easy,medium,hard)
+and fix the shooting turn
+
+We add timer and sound beep
+it will beep's when each player's turn ending
+and we will also do if player's time is up 
+automaticly shoot in the board
